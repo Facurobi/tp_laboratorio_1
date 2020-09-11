@@ -2,7 +2,7 @@
 
 #include "Funciones.h"
 
-/**  Esta funcion suma los dos enteros ingresados y devuelve el resultado
+/*  Esta funcion suma los dos enteros ingresados y devuelve el resultado
  *
  * int a recibe un numero entero para sumar
  *
@@ -13,16 +13,14 @@
  */
 
 int suma (int a, int b)
+
 {
-    int  resultado;
-
-    resultado  = a + b;
-
+    int resultado;
+    resultado = a + b;
     return resultado;
-
 }
 
-/**  Esta funcion resta los dos enteros ingresados y devuelve el resultado
+/*  Esta funcion resta los dos enteros ingresados y devuelve el resultado
  *
  * int a recibe un numero para restar
  *
@@ -33,17 +31,14 @@ int suma (int a, int b)
  */
 
  int resta (int a, int b)
+
 {
-
     int resultado;
-
     resultado  = a - b;
-
     return resultado;
-
 }
 
-/**  Esta funcion multiplica los dos enteros ingresados y devuelve el resultado
+/*  Esta funcion multiplica los dos enteros ingresados y devuelve el resultado
  *
  * int a recibe un numero para multiplicar
  *
@@ -54,17 +49,14 @@ int suma (int a, int b)
  */
 
  int multiplicacion (int a, int b)
+
 {
-
     int  resultado;
-
     resultado  = a * b;
-
     return resultado;
-
 }
 
-/** Esta funcion divide los dos enteros ingresados y devuelve el resultado
+/* Esta funcion divide los dos enteros ingresados y devuelve el resultado
  *
  * int a recibe un numero para dividir
  *
@@ -75,16 +67,14 @@ int suma (int a, int b)
  */
 
 float division (int a, int b)
+
 {
     float  resultado;
-
     resultado  =  (float) a / b;
-
     return resultado;
-
 }
 
-/** Esta funcion realiza el factorial del entero ingresado y devuelve el resultado
+/* Esta funcion realiza el factorial del entero ingresado y devuelve el resultado
  *
  * int a recibe un numero entero
  *
